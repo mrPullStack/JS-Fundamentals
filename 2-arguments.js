@@ -1,9 +1,9 @@
 const args = process.argv.slice(2);
 
 if (args.length === 0) {
-    console.log("No argument")
+    console.log("No argument");
 } else if (args.length === 1) {
-    console.log("Best Argument found")
+    console.log("1 Argument found");
 } else {
-    console.log("Best School Arguments found")
+    console.log(args.length + " Arguments found");
 }
