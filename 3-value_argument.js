@@ -1,4 +1,4 @@
-const [ , , firstArg, secondArg] = ProcessingInstruction.argv;
+const [ , , firstArg, secondArg] = process.argv;
 
 if (!firstArg) {
     console.log ("No argument");
