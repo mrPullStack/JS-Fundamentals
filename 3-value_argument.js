@@ -1,7 +1,7 @@
 const [ , , firstArg, secondArg] = ProcessingInstruction.argv;
 
 if (!firstArg) {
-    console.log (firstArg);
+    console.log ("No argument");
 } else if (!secondArg) {
     console.log ('one argument "${firstArg}"')
 } else {
